@@ -1,0 +1,55 @@
+# ========================
+# Environment Files
+# ========================
+.env
+*.env
+.env.local
+.env*.local
+
+# ========================
+# Python Specific
+# ========================
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========================
+# IDE & Editor Files
+# ========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# ========================
+# System Files
+# ========================
+.DS_Store
+Thumbs.db
+# ========================
+# Trading Bot Specific
+# ========================
+/data/              # Φάκελος με ιστορικά δεδομένα
+/logs/              # Αρχεία log
+backtests/          # Αποτελέσματα backtesting
+config.json         # Αρχεία ρυθμίσεων
+credentials/        # Φάκελος με ευαίσθητα δεδομένα
